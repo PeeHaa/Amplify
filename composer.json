@@ -1,0 +1,25 @@
+{
+    "name": "peehaa/amplify",
+    "description": "MVC fo realz kinda",
+    "keywords": ["mvc", "amp", "magic"],
+    "homepage": "https://github.com/PeeHaa/Amplify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Hordijk",
+            "email": "info@pieterhordijk.com",
+            "homepage": "https://pieterhordijk.com",
+            "role": "devloper"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Amplify\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7",
+        "amphp/aerys": "dev-master",
+        "codecollab/template": "dev-master"
+    }
+}
