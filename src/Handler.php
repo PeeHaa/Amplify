@@ -61,7 +61,7 @@ class Handler implements WebSocket
     {
         $this->endpoint->send(null, json_encode([
             'global'  => $this->clicks,
-            'clients' => count($this->clients),
+            'clients' => $this->clients,
         ]));
     }
 }
