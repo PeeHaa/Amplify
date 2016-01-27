@@ -2,13 +2,13 @@
 
 namespace Amplify;
 
-use Aerys\WebSocket;
+use Aerys\Websocket;
 use Aerys\Request;
 use Aerys\Response;
 use Aerys\Websocket\Endpoint;
 use Aerys\Websocket\Message;
 
-class Handler implements WebSocket
+class Handler implements Websocket
 {
     private $clients = 0;
 
